@@ -31,8 +31,8 @@ public class EmployeeManager {
 
     public static void main(String[] args) {
         EmployeeManager manager = new EmployeeManager();
-        manager.add(new Employee(101, "David", "Engineer", 70000));
-        manager.add(new Employee(102, "Eva", "Manager", 90000));
+        manager.add(new Employee(101, "Sriya Avyakta", "Engineer", 70000));
+        manager.add(new Employee(102, "Srija Anuhya", "Manager", 90000));
         manager.traverse();
         manager.search(101);
         manager.delete(101);
