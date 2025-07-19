@@ -27,7 +27,9 @@ public class InventoryManager {
     public static void main(String[] args) {
         InventoryManager manager = new InventoryManager();
         Product p1 = new Product(1, "Laptop", 10, 75000);
+        Product p2 = new Product(2, "Mobile", 14, 7000);
         manager.addProduct(p1);
+        manager.addProduct(p2);
         manager.updateProduct(1, 15);
         manager.displayAll();
         manager.deleteProduct(1);
