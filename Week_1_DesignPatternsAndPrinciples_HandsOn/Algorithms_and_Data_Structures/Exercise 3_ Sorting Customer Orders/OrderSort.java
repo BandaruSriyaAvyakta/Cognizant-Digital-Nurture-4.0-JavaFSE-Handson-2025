@@ -39,9 +39,9 @@ public class OrderSort {
 
     public static void main(String[] args) {
         Order[] orders = {
-            new Order(1, "Alice", 300.0),
-            new Order(2, "Bob", 150.0),
-            new Order(3, "Charlie", 450.0)
+            new Order(1, "Alice Borderland", 300.0),
+            new Order(2, "Michael Bob", 150.0),
+            new Order(3, "Charlie flippingoes", 450.0)
         };
 
         quickSort(orders, 0, orders.length - 1);
