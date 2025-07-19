@@ -21,4 +21,21 @@ public class ProductSearch {
         }
         return -1;
     }
+
+    public static void main(String[] args) {
+        Product[] products = {
+            new Product(101, "Mouse", "Electronics"),
+            new Product(102, "Keyboard", "Electronics"),
+            new Product(103, "Monitor", "Electronics"),
+            new Product(104, "Laptop", "Computers")
+        };
+
+        String searchName = "Laptop";
+
+        int indexLinear = linearSearch(products, searchName);
+        System.out.println("Linear Search Index: " + indexLinear);
+
+        int indexBinary = binarySearch(products, searchName);
+        System.out.println("Binary Search Index: " + indexBinary);
+    }
 }
